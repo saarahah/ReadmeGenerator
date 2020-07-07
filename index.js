@@ -3,12 +3,6 @@ var fs = require ('fs');
 const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-
-
-
-//inquirer activity no 15
-//24 STU_template literals
-
 inquirer.prompt([
 
     {
@@ -84,9 +78,8 @@ inquirer.prompt([
 
 ]).then(function(data){
 
-    // var filename= data.name.toLowerCase().split('').join('') + ".JSON";
 
-    fs.writeFile("GeneratedREADME.MD", generateMarkdown(data), function (err){
+    fs.writeFile("GeneratedREADME2.MD", generateMarkdown(data), function (err){
         if (err) {
             return console.log(err);
         
@@ -95,34 +88,3 @@ inquirer.prompt([
     });
 
 });
-
-
-
-//template literals
-//instead of HTML file will be readme type of file
-//markup language
-//pass data coming from answers from inquirer
-
-//creates HTML file
-// const songSnippet = `
-//     <div class = "song">
-//         <h2>${music.title}</h2>
-//         <p class = "artist">${music.artist}</p>
-//         <p class = "album">${music.album}</p>
-//     </div>
-//     `;
-
-//     const element = document.getElementById ("music");
-//     element.innerHTML = songSnippet
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();

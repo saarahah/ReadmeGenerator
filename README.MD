@@ -33,15 +33,19 @@ This project is licensed under none.
 
 ## Contributions
   
-In order to contribute to the repo:
-<br/>
-no contributions
+No contributions
   
-## Tests
-  
-To test, use the command: 
+## Screenshots
+
+![image](screenshotindex1.PNG)
 <br/>
-no tests
+![image](screenshotindex2.PNG)
+<br/>
+![image](terminal1.PNG)
+<br/>
+![image](terminal2.PNG)
+<br/>
+![image](screenshotgeneratemark.PNG)
 
  ## Questions
 
