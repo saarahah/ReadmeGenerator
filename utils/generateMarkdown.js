@@ -4,7 +4,9 @@ function generateMarkdown(data) {
 
   ![Github license](https://img.shields.io/badge/license-${data.license.replace(" ", "_")}-green.svg)
 
-  ## Description: ${data.description}
+  ## Description: 
+  
+  ${data.description}
   
   
   ## Table of Contents 
