@@ -44,7 +44,7 @@ To test, use the command: npm run test
  ## Questions
 
  If you have any questions email me at sarahlferguson07@gmail.com
- My Github account is Github.com/undefined
+ My Github account is Github.com/saarahah
   
   
   ---
