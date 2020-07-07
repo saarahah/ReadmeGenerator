@@ -1,6 +1,6 @@
-# fdsfsdfs
+# fdsfdsf
 
-  ## fdsfsdf
+  ## fdsfdsf
   
   
   ## Table of Contents 
@@ -13,12 +13,12 @@
   
   ## Installation
   
- fsdfs
+ fdsf
   
   
   ## Usage 
   
-fsdfsdfsd
+fdsfds
   
   
   ## Contribution
@@ -28,7 +28,7 @@ fsdfsdfsd
   
   ## License
   
-  APACHE 2.0
+  GPL 3.0
   
   
   ---
@@ -37,7 +37,7 @@ fsdfsdfsd
   
   ## Badges
 
-  ![Github license](https://img.shields.io/badge/license-APACHE 2.0-green.svg)
+  !(https://img.shields.io/badge/license-GPL 3.0-green.svg)
   
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   

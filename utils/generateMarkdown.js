@@ -39,7 +39,7 @@ ${data.usage}
   
   ## Badges
 
-  ![Github license](https://img.shields.io/badge/license-${data.license}-green.svg)
+  !(https://img.shields.io/badge/license-${data.license}-green.svg)
   
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   
