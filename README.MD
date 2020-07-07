@@ -1,6 +1,6 @@
-# fdsfdsfsd
+# fdsfdsf
 
-  ![Github license](https://img.shields.io/badge/license-GPL3.0-green.svg)
+  ![Github license](https://img.shields.io/badge/license-APACHE_2.0-green.svg)
 
   ## fdsfds
   
@@ -15,12 +15,12 @@
   
   ## Installation
   
- fdfds
+ fdsf
   
   
   ## Usage 
   
-fdsfdsfd
+fdsfds
   
   
   ## Contribution
@@ -30,7 +30,7 @@ fdsfdsfd
   
   ## License
   
-  GPL 3.0
+  APACHE 2.0
   
   
   ---
