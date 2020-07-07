@@ -54,7 +54,7 @@ inquirer.prompt([
 
 {
     type: "input",
-    name: "command",
+    name: "installation",
     message: "what command should be run to install dependancies?"
 
 },
@@ -68,7 +68,7 @@ inquirer.prompt([
 
 {
     type: "input",
-    name: "repo",
+    name: "usage",
     message: "what does the user need to know about the repo?"
 
 },
@@ -90,7 +90,6 @@ inquirer.prompt([
         
         }
         console.log("sucess")
-        //generateMarkdown(data);
     });
 
 });
