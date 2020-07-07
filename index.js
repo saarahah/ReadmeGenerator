@@ -1,11 +1,10 @@
 var inquirer= require("inquirer");
 var fs = require ('fs');
+const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// array of questions for user
-// const questions = [
 
-// ];
 
 //inquirer activity no 15
 //24 STU_template literals
@@ -43,6 +42,7 @@ inquirer.prompt([
     {
         type: "list",
         name: "license",
+        default: "use the arrows to select",
         choices: [
             "APACHE 2.0",
             "GPL 3.0",
@@ -82,16 +82,19 @@ inquirer.prompt([
 
 ]).then(function(data){
 
-    var filename= data.name.toLowerCase().split('').join('') + ".json";
+    // var filename= data.name.toLowerCase().split('').join('') + ".JSON";
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function (err){
+    fs.writeFile("README.MD", generateMarkdown(data), function (err){
         if (err) {
             return console.log(err);
+        
         }
         console.log("sucess")
+        //generateMarkdown(data);
     });
 
 });
+
 
 
 //template literals
