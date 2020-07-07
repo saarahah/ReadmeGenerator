@@ -55,6 +55,7 @@ inquirer.prompt([
 {
     type: "input",
     name: "installation",
+    default: "npm i",
     message: "what command should be run to install dependancies?"
 
 },
@@ -62,6 +63,7 @@ inquirer.prompt([
 {
     type: "input",
     name: "tests",
+    default: "npm run test",
     message: "what command should be run for tests?"
 
 },
@@ -84,7 +86,7 @@ inquirer.prompt([
 
     // var filename= data.name.toLowerCase().split('').join('') + ".JSON";
 
-    fs.writeFile("README.MD", generateMarkdown(data), function (err){
+    fs.writeFile("GeneratedREADME.MD", generateMarkdown(data), function (err){
         if (err) {
             return console.log(err);
         
