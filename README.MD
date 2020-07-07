@@ -37,7 +37,7 @@ fdsfds
   
   ## Badges
 
-  ![badmath](https://img.shields.io/badge/license-GPL 3.0-green.svg)
+  [![Github license](https://img.shields.io/badge/license-GPL 3.0-green.svg)]
   
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   
