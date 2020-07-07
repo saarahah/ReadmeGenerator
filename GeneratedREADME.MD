@@ -1,8 +1,8 @@
-# Sarah's Readme
+# Readme Generator
 
-  ![Github license](https://img.shields.io/badge/license-GPL_3.0-green.svg)
+  ![Github license](https://img.shields.io/badge/license-APACHE_2.0-green.svg)
 
-  ## Description: A readme generator
+  ## Description: This project is a readme generator 
   
   
   ## Table of Contents 
@@ -25,19 +25,19 @@
   
 Here is some information about using the repo:
 <br/>
-If you want to contribute please credit
+The repo contains index.js, generatemarkdown.js, node modules, and package.json
   
   
  ## License
   
-This project is licensed under GPL 3.0.
+This project is licensed under APACHE 2.0.
   
 
 ## Contributions
   
 In order to contribute to the repo:
 <br/>
-credit
+fork and credit
   
 ## Tests
   
