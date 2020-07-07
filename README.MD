@@ -23,7 +23,7 @@
   
 ## Usage 
   
-The repo contains files used to generate markdown files in the format of a readme. Included are an index.js which uses inquirer to ask a user questions, a generatemarkdown.js which uses a template literal to add the input into a readme format and the package.json and node module dependancies.
+The repo contains files used to generate markdown files in the format of a readme. Included are an index.js which uses inquirer to ask a user questions, a generatemarkdown.js which uses a template literal to add the input into a readme format and the package.json and node module dependancies. To use this project you must have node.js, install the dependencies and run "node index.js"
   
   
  ## License
