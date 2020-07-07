@@ -11,28 +11,73 @@ var fs = require ('fs');
 //24 STU_template literals
 
 inquirer.prompt([
+
     {
         type: "input",
-        name: "name",
-        message: "what is your name"
+        name: "username",
+        message: "what is your github username?"
 
     },
 
     {
         type: "input",
-        name: "name",
-        message: "what is your name"
+        name: "email",
+        message: "what is your email address?"
 
     },
 
     {
         type: "input",
-        name: "name",
+        name: "title",
+        message: "what is your project's name?"
+
+    },
+
+    {
+        type: "input",
+        name: "description",
+        message: "write a short description of your project"
+
+    },
+
+    {
+        type: "list",
+        name: "license",
         choices: [
-            "phone",
-            "email",
-            "other" 
+            "APACHE 2.0",
+            "GPL 3.0",
+            "BSD 3",
+            "MIT",
+            "none" 
     ]
+},
+
+{
+    type: "input",
+    name: "command",
+    message: "what command should be run to install dependancies?"
+
+},
+
+{
+    type: "input",
+    name: "tests",
+    message: "what command should be run for tests?"
+
+},
+
+{
+    type: "input",
+    name: "repo",
+    message: "what does the user need to know about the repo?"
+
+},
+
+{
+    type: "input",
+    name: "contributions",
+    message: "what does the user need to know about contributing to the repo?"
+
 }
 
 ]).then(function(data){
@@ -55,16 +100,16 @@ inquirer.prompt([
 //pass data coming from answers from inquirer
 
 //creates HTML file
-const songSnippet = `
-    <div class = "song">
-        <h2>${music.title}</h2>
-        <p class = "artist">${music.artist}</p>
-        <p class = "album">${music.album}</p>
-    </div>
-    `;
+// const songSnippet = `
+//     <div class = "song">
+//         <h2>${music.title}</h2>
+//         <p class = "artist">${music.artist}</p>
+//         <p class = "album">${music.album}</p>
+//     </div>
+//     `;
 
-    const element = document.getElementById ("music");
-    element.innerHTML = songSnippet
+//     const element = document.getElementById ("music");
+//     element.innerHTML = songSnippet
 
 // // function to write README file
 // function writeToFile(fileName, data) {
