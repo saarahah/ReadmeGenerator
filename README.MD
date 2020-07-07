@@ -39,13 +39,27 @@ No contributions
 
 ![image](screenshotindex1.PNG)
 <br/>
+Index.js file with inquirer prompts
+<br/>
 ![image](screenshotindex2.PNG)
+<br/>
+Index.js file with fs write file
 <br/>
 ![image](terminal1.PNG)
 <br/>
+questions prompted in terminal
+<br/>
 ![image](terminal2.PNG)
 <br/>
+more questions
+<br/>
 ![image](screenshotgeneratemark.PNG)
+<br/>
+example of generated markdown file
+<br/>
+![image](readme.PNG)
+<br/>
+final format image
 
  ## Questions
 
