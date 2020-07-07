@@ -46,7 +46,7 @@ To test, use the command: ${data.tests}
  ## Questions
 
  If you have any questions email me at ${data.email}
- My Github account is Github.com/${data.username}
+ My Github account is [github.com/${data.username}]
   
   
   ---
