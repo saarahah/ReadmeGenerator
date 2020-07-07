@@ -2,7 +2,9 @@
 
   ![Github license](https://img.shields.io/badge/license-none-green.svg)
 
-  ## Description: This project is a good readme generator. It was created using inquirer, fs, and node.js. The project uses inquirer to prompt the user for questions regarding the nature of their project. After the questions are answered a markdown file is generated. The file generate markdown contains a template literal that uses information from the inputs in index.js. Once completed a markdown file called GeneratedREADME.MD is made.
+  ## Description: 
+  
+  This project is a good readme generator. It was created using inquirer, fs, and node.js. The project uses inquirer to prompt the user for questions regarding the nature of their project. After the questions are answered a markdown file is generated. The file generate markdown contains a template literal that uses information from the inputs in index.js. Once completed a markdown file called GeneratedREADME.MD is made.
   
   
   ## Table of Contents 
