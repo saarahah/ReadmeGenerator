@@ -23,9 +23,7 @@
   
 ## Usage 
   
-Here is some information about using the repo:
-<br/>
-The repo contains files used to generate markdown files in the format of a readme
+The repo contains files used to generate markdown files in the format of a readme. Included are an index.js which uses inquirer to ask a user questions, a generatemarkdown.js which uses a template literal to add the input into a readme format and the package.json and node module dependancies.
   
   
  ## License
