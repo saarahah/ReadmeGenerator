@@ -2,6 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ![Github license](https://img.shields.io/badge/license-${data.license}-green.svg)
+
   ## ${data.description}
   
   
@@ -38,8 +40,6 @@ ${data.usage}
   🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
   
   ## Badges
-
-  !(https://img.shields.io/badge/license-${data.license}-green.svg)
   
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   

@@ -1,6 +1,8 @@
-# fdsfdsf
+# fdsfds
 
-  ## fdsfdsf
+  ![Github license](https://img.shields.io/badge/license-GPL 3.0-green.svg)
+
+  ## fdsfds
   
   
   ## Table of Contents 
@@ -18,7 +20,7 @@
   
   ## Usage 
   
-fdsfds
+sdf
   
   
   ## Contribution
@@ -36,8 +38,6 @@ fdsfds
   🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
   
   ## Badges
-
-  [![Github license](https://img.shields.io/badge/license-GPL 3.0-green.svg)]
   
   ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   
