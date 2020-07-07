@@ -1,8 +1,8 @@
-# Readme Generator
+# Good Readme Generator
 
   ![Github license](https://img.shields.io/badge/license-APACHE_2.0-green.svg)
 
-  ## Description: This project is a readme generator 
+  ## Description: This is a readme generator done using node.js
   
   
   ## Table of Contents 
@@ -25,7 +25,7 @@
   
 Here is some information about using the repo:
 <br/>
-The repo contains index.js, generatemarkdown.js, node modules, and package.json
+The repo contains the index.js, generatemarkdown.js, node modules, and packages .json
   
   
  ## License
@@ -37,7 +37,7 @@ This project is licensed under APACHE 2.0.
   
 In order to contribute to the repo:
 <br/>
-fork and credit
+if you want to contribute fork and credit
   
 ## Tests
   
